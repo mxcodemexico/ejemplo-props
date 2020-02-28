@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react';
 import Student from './components/students/Student'
 
+
 function App() {
     const enrrique={
         domicilio:"tuzos",
@@ -15,7 +16,7 @@ function App() {
 
     return (
         <Fragment>
-            <Student carlos={carlos} enrrique={enrrique} selection="luis" />
+            <Student carlos={carlos} enrrique={enrrique} selection="carlos" />
         </Fragment>
     );
 }
